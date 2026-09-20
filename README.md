@@ -1,21 +1,25 @@
-# Lunduke Paint
+# Phil Paint
 
-Lunduke Paint is a traditional Linux X11 paint program built with GTK 3.24 and
+Phil Paint is a traditional Linux Wayland paint program built with GTK 3.24 and
 gtkmm-3.0. Look and feel: classic MS Paint + KolourPaint, with Pinta-style
 user layers.
 
 
-- Binary: `lunduke-paint`
-- Application id: `org.lunduke.LundukePaint`
+- Binary: `phil-paint`
+- Application id: `dev.xgui4.PhilPaint`
 - License: GPL-3.0-or-later
 - Language: C++17
-- Display: Linux X11 (`GDK_BACKEND=x11`)
+- Display: Linux Wayland (`GDK_BACKEND=wayland`)
 - Chrome: window-manager title bar, menu bar, and toolbars (no client-side
   decorations, no HeaderBar as main chrome)
 - Theme: follows the active GTK3 theme; the app is not skinned
 - Native project file: OpenRaster `.ora` (libarchive + pugixml)
 - Version: 0.3
-- Config: `$XDG_CONFIG_HOME/lunduke-paint/lunduke-paint.ini` via GKeyFile
+- Config: `$XDG_CONFIG_HOME/phil-paint/phil-paint.ini` via GKeyFile
+
+## 0.4
+
+Renamed to Phil Paint and make Wayland the default. 
 
 ## 0.3
 
