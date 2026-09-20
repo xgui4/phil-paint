@@ -354,7 +354,7 @@ void MainWindow::build_toolbar() {
 Glib::RefPtr<Gio::MenuModel> MainWindow::load_menubar_model() {
   try {
     auto builder = Gtk::Builder::create_from_resource(
-        "/org/lunduke/LundukePaint/ui/menus.xml");
+        "/dev/xgui4/PhilPaint/ui/menus.xml");
     auto object = builder->get_object("menubar");
     auto menu = Glib::RefPtr<Gio::Menu>::cast_dynamic(object);
     if (!menu) {
@@ -1856,13 +1856,13 @@ void MainWindow::action_about() {
   dialog.set_transient_for(*this);
   dialog.set_program_name(actions::kProductName);
   dialog.set_version(actions::kVersion);
-  dialog.set_comments("A traditional X11 paint program.\nApplication id: " +
+  dialog.set_comments("A traditional Wayland paint program.\nApplication id: " +
                       Glib::ustring(actions::kAppId));
-  dialog.set_copyright("Copyright © 2026 The Lunduke Journal");
+  dialog.set_copyright("Copyright © 2026 Xgui4, Original by Phil (Lunduke AI Agent Clanker)");
   dialog.set_license_type(Gtk::LICENSE_GPL_3_0);
   dialog.set_wrap_license(true);
-  dialog.set_website("https://lunduke.com");
-  dialog.set_website_label("lunduke.com");
+  dialog.set_website("https://xgui4.github.io");
+  dialog.set_website_label("xgui4.github.io");
   dialog.set_logo_icon_name(actions::kAppId);
   dialog.run();
 }

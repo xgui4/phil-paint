@@ -1,13 +1,13 @@
 [Desktop Entry]
 Type=Application
-Name=Lunduke Paint
+Name=Phil Paint
 GenericName=Paint Program
-Comment=Layered bitmap paint program for Linux X11
-Exec=lunduke-paint %F
-Icon=org.lunduke.LundukePaint
+Comment=Layered bitmap paint program for Linux Wayland
+Exec=phil-paint %F
+Icon=dev.xgui4.PhilPaint
 Terminal=false
 Categories=GTK;Graphics;2DGraphics;RasterGraphics;
 StartupNotify=true
-StartupWMClass=lunduke-paint
+StartupWMClass=phil-paint
 MimeType=image/openraster;image/png;image/jpeg;image/bmp;image/gif;
 Keywords=paint;draw;raster;

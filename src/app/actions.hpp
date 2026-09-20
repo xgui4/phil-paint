@@ -5,9 +5,9 @@
 namespace lundukepaint {
 namespace actions {
 
-constexpr const char* kAppId = "org.lunduke.LundukePaint";
-constexpr const char* kVersion = "0.3";
-constexpr const char* kProductName = "Lunduke Paint";
+constexpr const char* kAppId = "dev.xgui4.PhilPaint";
+constexpr const char* kVersion = "0.4";
+constexpr const char* kProductName = "Phil Paint";
 
 
 constexpr const char* kNew = "new";

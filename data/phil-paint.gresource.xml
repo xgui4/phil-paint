@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/org/lunduke/LundukePaint">
+  <gresource prefix="/dev/xgui4/PhilPaint">
     <file>ui/menus.xml</file>
   </gresource>
-  <gresource prefix="/org/lunduke/LundukePaint/icons">
+  <gresource prefix="/dev/xgui4/PhilPaint/icons">
     <file alias="scalable/actions/tool-select-rectangle-symbolic.svg">icons/hicolor/scalable/actions/tool-select-rectangle-symbolic.svg</file>
     <file alias="scalable/actions/tool-magicwand-symbolic.svg">icons/hicolor/scalable/actions/tool-magicwand-symbolic.svg</file>
     <file alias="scalable/actions/tool-select-lasso-freeform-symbolic.svg">icons/hicolor/scalable/actions/tool-select-lasso-freeform-symbolic.svg</file>

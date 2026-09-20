@@ -2,7 +2,7 @@
 
 #include "raster/text.hpp"
 
-#include <algorithm>
+// #include <algorithm>
 
 namespace lundukepaint {
 

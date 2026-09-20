@@ -40,11 +40,11 @@ int clamp_int(int v, int lo, int hi) {
 }  // namespace
 
 std::string Preferences::config_dir() {
-  return Glib::build_filename(Glib::get_user_config_dir(), "lunduke-paint");
+  return Glib::build_filename(Glib::get_user_config_dir(), "phil-paint");
 }
 
 std::string Preferences::config_path() {
-  return Glib::build_filename(config_dir(), "lunduke-paint.ini");
+  return Glib::build_filename(config_dir(), "phil-paint.ini");
 }
 
 void Preferences::load() {

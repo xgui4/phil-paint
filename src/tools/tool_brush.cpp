@@ -12,7 +12,7 @@
 #include <gtkmm/label.h>
 #include <gtkmm/spinbutton.h>
 
-#include <cmath>
+// #include <cmath>
 #include <memory>
 
 namespace lundukepaint {

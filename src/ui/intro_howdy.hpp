@@ -11,7 +11,7 @@
 // Launch gate (default OFF). Sources + data/howdy.svg (+ jpeg twin) stay in-tree
 // so the greeting can be revived later. Set to 1 to play on fresh empty launch.
 #ifndef LUNDUKEPAINT_HOWDY_INTRO
-#define LUNDUKEPAINT_HOWDY_INTRO 0
+#define LUNDUKEPAINT_HOWDY_INTRO 1
 #endif
 
 namespace lundukepaint {

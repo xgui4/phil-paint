@@ -95,11 +95,11 @@ sudo apt install -y build-essential meson ninja-build \
   libgtkmm-3.0-dev libcairomm-1.0-dev libgdk-pixbuf-2.0-dev \
   libarchive-dev libpugixml-dev
 
-cd lunduke-paint
+cd phil-paint
 meson setup build
 meson compile -C build
 meson test -C build
-GDK_BACKEND=x11 ./build/lunduke-paint
+GDK_BACKEND=wayland ./build/phil-paint
 ```
 
 On Debian 13 the pixbuf development package is `libgdk-pixbuf-2.0-dev`.

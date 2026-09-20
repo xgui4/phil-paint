@@ -42,7 +42,7 @@ inline const char* css() {
       "}"
       ".tool-button.tool-selected {"
       "  background-image: linear-gradient(to bottom, #d3e4fb, #a9c7ee);"
-      "  background-color: #bcd6f5;"
+      "  background-color: #000000;"
       "  border: 2px solid #2a5d9f;"
       "  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.35);"
       "}"

@@ -133,7 +133,7 @@ void Toolbox::add_tool_button(const std::string& id, const std::string& tooltip,
                               const std::string& icon_name) {
   auto* button = Gtk::manage(new Gtk::Button());
   const std::string resource =
-      "/org/lunduke/LundukePaint/icons/scalable/actions/" + icon_name + ".svg";
+      "/dev/xgui4/PhilPaint/icons/scalable/actions/" + icon_name + ".svg";
   auto* image = Gtk::manage(new Gtk::Image());
   image->set_from_resource(resource);
   image->set_pixel_size(18);
@@ -308,7 +308,7 @@ void Toolbox::set_colors(Color fg, Color bg) {
 void Toolbox::draw_swatch(const Cairo::RefPtr<Cairo::Context>& cr, Gtk::DrawingArea& area, Color c) {
   const int w = area.get_allocated_width();
   const int h = area.get_allocated_height();
-  const int s = std::min(w, h);
+  const float s = std::min(w, h);
   const int x = (w - s) / 2;
   const int y = (h - s) / 2;
   cr->set_source_rgb(0.3, 0.3, 0.3);

@@ -5,7 +5,7 @@
 #include "doc/layer.hpp"
 #include "doc/layer_stack.hpp"
 
-#include <algorithm>
+// #include <algorithm>
 #include <cstring>
 
 namespace lundukepaint {
